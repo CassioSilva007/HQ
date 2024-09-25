@@ -1,0 +1,572 @@
+
+*{margin: 0px;padding: 0px;}
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+footer li:hover{
+    text-shadow: 2px 2px 2px white;
+}
+.q{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.607);
+    width: 290px;
+    height: 290x;
+    transition: transform 1s, background-size 1s;
+    transform: translateX(0) scale(1.0);
+}
+.q:hover, .q:focus {
+    transform: translateX(10px) scale(1.05);
+    box-shadow: 4px 4px 5px rgba(0, 255, 247, 0.607);
+}
+table {
+    margin: 0 auto; 
+}
+
+.txtini, h1 {
+    text-align: center;
+}
+.c{
+    padding-bottom: 50px;
+    margin: 0 auto;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navc{
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+
+}
+.navc a{
+    flex: 2;
+    transition: all 0.5s ease-out;
+}
+.navc a:hover, a:focus{
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.navc a, li{
+    text-decoration: none;
+}
+
+main nav > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+main nav > ul > li{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+main nav > ul > li > a{
+    color: white;
+    font-size: 1.3em;
+}
+#txth2{
+    text-align: center;
+    font-size: 25pt;
+    margin-right: 700px;
+}
+div p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.links {
+    display: none;
+    background-color: rgb(0, 0, 0);
+    min-width: 200px;
+}
+.links a {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.outros{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.am:hover{
+    opacity: 0.5;
+}
+.txtini{
+    font-family: Jazz LET, fantasy;
+    background-image: url("../img/fundo-universo-dc.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: white;
+    text-shadow: 5px 5px 5px skyblue;
+}
+#titulo{
+    text-shadow: 4px 4px 4px black;
+    font-size: 100pt;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#fefeito{
+    margin-bottom: 50px;
+    font-size: 20pt;
+    text-shadow: 0px 5px 5px black;
+}
+.bgim{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#logo{
+    width: 100px;
+    height: 90px;
+}
+.imgc{
+    border: 5px ridge rgba(0, 208, 255, 0.769);
+    position: relative;
+    width: 400px;
+    height: 550px;
+    box-shadow: 0px 14px 14px black;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.imgc:hover .overlay{
+    opacity: 1;
+}
+.carrosel{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.hq{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.hqs{
+   display: flex;
+
+}
+.hqt{
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    text-align: center;
+}
+.hqt p{
+    font-size: 15pt;
+    margin: 30px;
+    text-align: justify;
+}
+.hqt h1{
+    text-shadow: 0px 2px 2px  rgb(0, 255, 255);
+    font-weight: 900;
+    font-size: 40pt;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.hqt h2{
+    padding-top: 50px;
+    font-family: Jazz LET, fantasy;
+    font-size: 30pt;
+}
+#timg{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.7), rgba(255, 0, 0, 0.753));
+
+}
+#timg1{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, black , rgb(251, 255, 0), rgba(255, 0, 0, 0.801));
+
+}
+#timg2{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.87) 50%, rgb(217, 255, 0));
+
+}
+#timg3{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(255, 115, 0) 50%, rgb(0, 163, 82));
+
+}
+#timg4{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(255, 8, 0) 50%, rgb(231, 255, 18));
+
+}
+#timg5{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(0, 124, 10) 50%, rgb(0, 255, 10));
+
+}
+#timg6{
+    width: 750px;
+    height: 750px;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(255, 0, 0) 50%, rgb(201, 197, 0));
+
+}
+#imgh{
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.cssbutton{
+    text-decoration: none;
+    background-color: red;
+    border-color: red;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px black;
+}
+.verhq{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(76, 0, 255);
+    border-color: rgb(60, 0, 255);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px black;
+}
+.final{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+button a{
+    font-family: Jazz LET, fantasy;
+    border: none;
+    padding: 30px 30px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+button a{
+    transition: all 0.5s ease-out;
+    
+}
+button a:hover, a:focus{
+    margin: 10px;
+}
+.cssbutton:hover{
+    opacity: 0.80;
+}
+.fundoimg{
+    text-shadow: 0px 2px 2px  rgba(0, 255, 255, 0.696);
+    font-size: 20pt;
+    font-weight: 500;
+}
+.preço{
+    font-family: Jazz LET, fantasy;
+}
+#fc{
+    background-color: skyblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+#compra{
+    font-size: 50pt;
+    font-family: Jazz LET, fantasy;
+    text-shadow: 5px 5px 5px white;
+}
+#historia{
+    padding: 20px;
+    text-shadow: 2px 5px 5px rgb(255, 255, 255);
+    font-family:Jazz LET, fantasy; 
+    font-size: 40pt;
+    font-weight: 900; 
+    background-color: skyblue;
+}
+#historiaa{
+    margin-top: 300px;
+    padding: 20px;
+    text-shadow: 2px 5px 5px rgb(255, 255, 255);
+    font-family:Jazz LET, fantasy; 
+    font-size: 40pt;
+    font-weight: 900; 
+    background-color: skyblue;
+}
+#historiaaa{
+    padding: 20px;
+    text-shadow: 2px 5px 5px rgb(255, 255, 255);
+    font-family:Jazz LET, fantasy; 
+    font-size: 40pt;
+    font-weight: 900; 
+    background-color: skyblue;
+}
+.nome{
+    font-family:Jazz LET, fantasy;
+    font-size: 40pt;
+    text-shadow: 4px 4px 4px skyblue;
+}
+.historia{
+    margin: 40px;
+    text-align: justify;
+}
+.cb{
+    border: 8px outset rgb(0, 21, 255);
+    border-radius: 30px;
+    margin-left: 50px;
+    width: 450px;
+    height: 500px;
+    transition: transform 1s, background-size 1s;
+    transform: translateX(0) scale(1.0);
+}
+.cb:hover, .cb:focus {
+    transform: translateX(10px) scale(1.10);
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+.sp1{
+    border: 10px outset rgb(0, 21, 255);
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    transition: transform 1s, background-size 1s;
+    transform: translateX(0) scale(1.0);
+}
+.sp1:hover, .sp1:focus {
+    transform: translateX(0px) scale(1.05);
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+.info{
+    font-size: 15pt;
+    background-image: linear-gradient(to right, skyblue, white);
+    padding-bottom: 50px;
+}
+#fontext{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+#fontext1{
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.div-slider {
+    width: auto;
+    height: 400px; 
+    text-align: center; 
+}
+.slides-front {
+    padding: 0;
+    width: 1000px; 
+    display: block; 
+    margin: auto; 
+    position: relative; 
+}
+.slides-front * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.slides-front input {
+    display: none;
+}
+.slide-container {
+    display: block;
+}
+.slide {
+    top: 0;
+    opacity: 0;
+    width: 980px;
+    height: 500px;
+    display: block;
+    position: absolute; 
+    transform: scale(0); 
+    transition: all .7s ease-in-out 0.1s; 
+}
+.slide {
+    margin-top: 50px;
+    width: 1000px;
+    height: 1000px;
+}
+.slide img{
+    border: 10px double rgb(0, 21, 255);
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px ;
+}
+.nav label {
+    border: 7px outset rgb(0, 81, 255);
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    cursor: pointer;
+    color: rgb(84, 130, 255);
+    font-size: 150pt;
+    text-align: center;
+    margin-top: 220px;
+    line-height: 190px;
+    font-family: "Varela Round", sans-serif;
+    
+}
+.slide:hover + .nav label {
+    opacity: 0.5; 
+}
+.nav label:hover {
+    opacity: 1; 
+}
+.nav .next {
+    right: 0; 
+}
+input:checked + .slide-container .slide {
+    opacity: 1;
+    transform: scale(1); 
+    transition: opacity 1s ease-in-out 0.1s; 
+}
+input:checked + .slide-container .nav label {
+    display: block; 
+}
+.nav-dots {
+    width: 100%;
+    bottom: 9px;
+    height: 11px;
+    display: block; 
+    position: relative;
+    text-align: center; 
+}
+.nav-dots .nav-dot {
+    top: 610px; 
+    width: 11px;
+    height: 11px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block; 
+    background-color: rgba(0, 194, 228, 0.989); 
+}
+.nav-dots .nav-dot:hover {
+    cursor: pointer; 
+    background-color: rgba(0, 55, 255, 0.8); 
+}
+.efeito:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transform: scale(1.3, 1.3);
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.item {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #bdfeff;
+    text-align: center;
+    text-shadow: 2px 5px 5px rgb(255, 255, 255);
+    font-family:Jazz LET, fantasy; 
+    font-size: 40pt;
+    font-weight: 900; 
+    margin: 0 auto;
+
+}
+.item img{
+    border: 7px outset rgb(0, 81, 255);
+    width: 350px;
+    height: 400px;
+    transition: transform 1s, background-size 1s;
+    transform: translateX(0) scale(1.0);
+}
+.item img:hover, .item img:focus {
+    transform: translateX(5px) scale(1.05);
+    box-shadow: 4px 4px 5px rgb(0, 255, 247);
+}
+.titulosobre{
+    font-family:Jazz LET, fantasy; 
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px skyblue;
+}
+    
+
+

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="DC_Comics_logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Doentes da Cabelça</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        background-color: white;
+    }
+    
+    header div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    header nav > ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    header nav > ul > li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    header nav > ul > li > a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+    }
+    
+    header nav > ul > li > a:hover{
+        color: skyblue;
+        transition: 0.5 ease;
+    }
+    
+    header img{
+        margin-right: 10px;
+    }
+    
+    /* Rodapé */
+    footer{
+        height: 200px;
+        background-color: black;
+        color: white;
+    }
+    
+    footer ul{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer ul > li{
+        padding: 10px;
+        list-style-type: none;
+        border-right: 1px solid white;
+    }
+    
+    footer ul > li > a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    footer > h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .txtini{
+        background-image: url("../HQ/img/fundo-sobre.jpg");
+    }
+    
+</style>
+<body>
+    <header>
+        <div>
+            <img src="img/dcicon.png" id="imgh">
+            <h1>Doentes da Cabeça</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/DC-main/personagens.html">Personagens</a></li>
+                <li><a href="index.html">HQ´s</a></li>
+                <li><a href="#">Séries/Filmes</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Loja</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class=" txtini">
+        <div class="bgim">
+                <h1 id="titulo">SOBRE HQ'S DA DC</h1>
+        </div>
+    </div>
+        <main>
+            <section>
+                <h1 id="historia">HISTÓRIA DOS PRINCIPAIS PERSONAGENS DA DC NAS HQ'S</h1>
+                <div class="carrosel">
+                    <div class="imgc">
+                    <img src="img/carrosel/Aquaman.jpg" alt="" class="c">
+                    <div class="overlay">
+                            <div>
+                                <p class="nome">AQUAMAN</p>
+                                <div class="historia">Aquaman foi incluído na série em quadrinhos da Liga da Justiça, aparecendo com a equipe na sua primeira aventura em Os Bravos e os Destemidos #28 (fevereiro-março de 1960). Foi membro fundador da equipe, como mostrado em um flashback em Liga da Justiça #9 (fevereiro de 1962)</div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="imgc">
+                        <img src="img/carrosel/Lanterna verde.jpg" alt="" class="c">
+                        <div class="overlay">
+                                <div>
+                                    <p class="nome">LANTERNA VERDE</p>
+                                    <div class="historia">Alan Scott, o primeiro Lanterna Verde humano, surgiu em 1940, em All-American Comics #16, pelas mãos de Martin Nodell e Bill Finger.</div>
+                                </div>
+                        </div>
+                        </div>
+                    <div class="imgc">
+                        <img src="img/carrosel/batman.jpg" alt="Quadrinho Superman" class="c">
+                        <div class="overlay">
+                            <div>
+                                <p class="nome">BATMAN</p>
+                                <div class="historia">Criado pelo desenhista Bob Kane e pelo escritor Bill Finger, Batman apareceu pela primeira vez na revista Detective Comics #27, publicada pela DC Comics, em maio de 1939.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imgc">
+                        <img src="img/carrosel/flash.jpg" alt="Quadrinho Superman" class="c">
+                            <div class="overlay">
+                                <div>
+                                    <p class="nome">FLASH</p>
+                                    <div class="historia">O Flash foi justamente o primeiro dos antigos super-heróis a ser trazido de volta dando início à Era de Prata dos quadrinhos. Sua estreia, na revista Showcase 04, de 1956, inclusive, é contada como o marco-zero da Era de Prata.</div>
+                                </div>
+                            </div>
+                    </div>
+                        <div class="imgc">
+                            <img src="img/carrosel/superman.jpg" alt="Quadrinho Superman" class="c">
+                            <div class="overlay">
+                                <div>
+                                    <p class="nome">SUPERMAN</p>
+                                    <div class="historia">Lançado em 1938, Action Comics No. 1 é considerado um dos quadrinhos mais importantes de todos os tempos. Em suas páginas, Jerry Siegel e Joe Shuster apresentaram o Superman ao mundo, lançando o conceito de super-heróis na forma que é hoje tão celebrada nas mais diversas mídias.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="imgc">
+                            <img src="img/carrosel/mulher maravilha.jpg" alt="" class="c">
+                            <div class="overlay">
+                                <div>
+                                    <p class="nome">MULHER MARAVILHA</p>
+                                    <div class="historia">Ela realizou sua primeira aparição na edição de dezembro de 1941 da revista All Star Comics #8 (chegou às bancas em outubro de 1941), teve um desenvolvimento um pouco melhor na edição de janeiro de 1942 da revista Sensation Comics #1 e realizou seu debut em uma revista solo em junho de 1942</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="fundocarrossel">
+                <h1 id="historia">RECOMENDAÇÕES</h1>
+                <div class="div-slider">
+                    <ul class="slides-front">
+                    <input type="radio" name="radio-btn" id="img-1" checked="">
+                    <li class="slide-container">
+                        <div class="slide">
+                            <a href="https://youtu.be/J-4bGJOBqio?feature=shared"><img src="img/videos/1.jpg" alt="" id="box"></a>
+                        </div>
+                        <div class="nav">
+                        <label for="img-3" class="prev">‹</label>
+                        <label for="img-2" class="next">›</label>
+                        </div>
+                    </li>
+                    <input type="radio" name="radio-btn" id="img-2">
+                    <li class="slide-container">
+                        <div class="slide">
+                            <a href="https://youtu.be/VJrpFbkLcsM?feature=shared"><img src="img/videos/2.jpg" alt=""></a>
+                        </div>
+                    <div class="nav">
+                        <label for="img-1" class="prev">‹</label>
+                        <label for="img-3" class="next">›</label>
+                    </div>
+                    </li>
+                    <input type="radio" name="radio-btn" id="img-3">
+                    <li class="slide-container">
+                        <div class="slide">
+                            <a href="https://youtu.be/utR_csCAs3M?feature=shared"><img src="img/videos/3.jpg" alt=""></a>
+                        </div>
+                    <div class="nav">
+                        <label for="img-2" class="prev">‹</label>
+                        <label for="img-1" class="next">›</label>
+                    </div>
+                    </li>
+                    </ul>
+                        </div>
+                        </div>
+                    </section>
+            <section>
+                <h1 id="historiaa">SOBRE O UNIVERSO DE HQ'S DA DC</h1>
+                <div class="info">
+                    <table>
+                        <tr class="info">
+                            <td><img src="img/sobre/Action_Comics_1.jpg" alt="" class="sp1"></td>
+                            <td id="fontext"><p class="titulosobre">PRIMEIRA HQ DA DC</p><strong>Superman</strong>, o herói de Krypton, foi o <strong>primeiro personagem</strong> com superpoderes a estrelar as <strong>comics da DC</strong>. A icônica figura que usa uniforme azul e capa vermelha surgiu na <strong>Action Comics #1, lançada em 1938</strong> sob a história escrita por Jerry Siegel e Joe Shuster</td>
+                        </tr>
+                        <tr class="info">
+                            <td id="fontext1"><p class="titulosobre">HERÓI MAIS CONHECIDO</p><p><strong>Action Comics (Superman) - 600 milhões</strong></p>As histórias do Homem de Aço fazem o mundo dos quadrinhos girar há quase <strong>oito décadas</strong>. Considerado o super-herói quintessencial, Superman <strong>definiu e define padrões</strong> que são seguidos por toda a indústria. Nascido em um planeta alienígena mas criado por fazendeiros terráqueos, Kal-El (ou Clark Kent) lida com questões de identidade própria enquanto enfrenta ameaças à humanidade.</td>
+                            <td><img src="img/sobre/superman.jpg" alt="" class="cb"></td>
+                        </tr>
+                        <tr class="info">
+                            <td><img src="img/sobre/batman.jpg" alt="" class="sp1"></td>
+                            <td id="fontext"><p class="titulosobre">UMA DAS MELHORES</p>Escrita e desenhada por Frank Miller, a história acompanha um <strong>Batman envelhecido após anos e anos de combate em Gotham City</strong>, que precisa<strong> retornar da aposentadoria</strong>. Lançada em 1986, a HQ apresentou uma narrativa <strong>política e psicológica</strong> que estabelece o Homem-Morcego como uma figura complexa e sombria – algo que seria <strong>retomado</strong> por diversos autores desde então. É considerada uma das <strong>melhores HQs</strong> já produzidas e foi uma das responsáveis por <strong>inserir temas adultos</strong> no mundo de super-heróis.</td>
+                        </tr>
+                        <tr class="info">
+                            <td id="fontext1"><p class="titulosobre">DC UNIVERSE</p>Sendo uma das empresas que<strong> mais vende hq's da indústria</strong>, a DC conta com mais de <strong>30.000 personagens</strong> no Universo DC, esta é a listagem mais completa em existência. Em toda a história da DC Comics nos quadrinhos, o Universo DC teve até agora <strong>52 Terras do multiverso</strong>.</td>
+                            <td><img src="img/sobre/dc.jpg" alt="" class="cb"></td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h1 id="historiaaa">PRINCIPAIS AUTORES</h1>
+                    <div class="container">
+                        <div class="item"><img src="img/autores/Alan-Moore.jpeg" alt="">Alan Moore</div>
+                        <div class="item"><img src="img/autores/Grant-Morrison.jpg" alt="">Grant Morrison</div>
+                        <div class="item"><img src="img/autores/Jack-Kirby.jpeg" alt="">Jack Kirby</div>
+                    </div>    
+                </section>
+
+        </main>
+    <div class="final">
+        <button type="submit" class="verhq">
+            <a href="hq.html">&gt;&gt;&gt;VER HQ'S</a>
+        </button>
+        <button type="submit" class="verhq">
+            <a href="index.html">VOLTAR PARA CIMA &uarr; </a>
+        </button>
+    </div>
+<footer>
+    <ul>
+        <li><a href="">Politica de Privacidade</a></li>
+        <li><a href="">Termos</a></li>
+        <li><a href="">Opções de Anúncios</a></li>
+        <li><a href="">Acessibilidades</a></li>
+        <li><a href="">Gerenciar Prefêrencias</a></li>
+    </ul>
+    <h2>&copy;Criado por Cassio dos Santos</h2>
+</footer>
+</body>
+
